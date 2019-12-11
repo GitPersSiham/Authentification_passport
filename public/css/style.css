@@ -1,0 +1,12 @@
+body{
+
+
+  margin: 0;  
+  padding: 0;
+  background-color: rgb(247, 210, 216);
+}
+#card-body{
+
+    padding: 10%;
+    margin-top:50px;
+}
