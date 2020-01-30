@@ -1,7 +1,7 @@
-const dotenv =require('dotenv')
+
 const express = require('express');
 const router = express.Router();
-const { ensureAuthenticated, forwardAuthenticated } = require('../src/middlewares/auth');
+const { ensureAuthenticated, forwardAuthenticated } = require('./config/auth');
 const DashboardController = require('./controllers/dashboardController');
 const WelcomePagecontroller = require('./controllers/welcomepageController');
 const AuthController = require('./controllers/authController');

@@ -11,7 +11,7 @@ const app = express();
 
 dotenv.config();
 // Passport Config
-require('./middlewares/passport')(passport);
+require('./config/passport')(passport);
 
 // EJS
 app.use(expressLayouts);
